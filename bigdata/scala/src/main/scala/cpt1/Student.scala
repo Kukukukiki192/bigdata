@@ -1,6 +1,6 @@
-package cpt01
+package cpt1
 
-class Student(name: String, age: Int){
+class Student(name: String, var age: Int){
   def print(): Unit={
     println( "name=" + name +", age=" + age + ", school=" + Student.school );
   }

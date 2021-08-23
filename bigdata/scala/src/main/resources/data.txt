@@ -1,0 +1,4 @@
+hello world
+hello scala
+math
+k is learning scala...
