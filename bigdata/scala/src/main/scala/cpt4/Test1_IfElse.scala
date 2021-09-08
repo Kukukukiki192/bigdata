@@ -18,7 +18,7 @@ object Test1_IfElse {
     }
 
 
-    //分支语句的返回值
+    //分支语句的返回值->用当前代码块最后一行表达式的值作为返回值
     var r1: String = if(age<18) {
       "未成年"
     } else if(age>=18 && age<50) {
