@@ -2,7 +2,6 @@ package cpt5
 
 //函数至简原则
 object Test4_Simplify {
-
   def main(args: Array[String]): Unit = {
     // 0.函数标准写法
     def f(s: String): String = {
@@ -62,7 +61,6 @@ object Test4_Simplify {
     }
     //匿名函数 Lambda表达式
     (s: String)=>{ println(s) }
-    //pdf教案内容 没看懂??
 //    def f9 = (x:String)=>{println("kk")}
 //    def f10(f:String=>Unit) = {
 //      f("")

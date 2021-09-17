@@ -1,7 +1,6 @@
 package cpt4
 
 object Test3_WhileLoop {
-
   def main(args: Array[String]): Unit = {
     //推荐for 不推荐while
     var i = 0

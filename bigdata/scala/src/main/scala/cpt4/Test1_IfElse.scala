@@ -3,7 +3,6 @@ package cpt4
 import scala.io.StdIn
 
 object Test1_IfElse {
-
   def main(args: Array[String]): Unit = {
     println("input age:")
     var age = StdIn.readInt()

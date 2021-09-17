@@ -1,7 +1,7 @@
 package cpt5
 
+//函数参数
 object Test3_FuncParam {
-
   def main(args: Array[String]): Unit = {
     //1.可变参数
     def f1(s: String*) = {  //s是集合类型

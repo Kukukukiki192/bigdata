@@ -5,7 +5,6 @@ import cpt1.Student
 //var(variable变量)/val(value常量) 变量名 [: 变量类型] = 初始值
 //!能用常量的地方不用变量
 object Test1_Value {
-
   def main(args: Array[String]): Unit = {
     //（1）声明变量时，类型可以省略，编译器自动推导，即类型推导
     var a = 1

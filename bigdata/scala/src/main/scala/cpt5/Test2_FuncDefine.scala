@@ -1,7 +1,7 @@
 package cpt5
 
+//函数定义
 object Test2_FuncDefine {
-
   def main(args: Array[String]): Unit = {
     //（1）函数 1：无参，无返回值
     def f1(): Unit = {

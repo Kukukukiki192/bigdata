@@ -2,7 +2,6 @@ package cpt2
 
 //标识符(各种变量、方法、函数)的命名规范
 object Test2_Identifier {
-
   def main(args: Array[String]): Unit = {
     //（1）以字母或者下划线开头，后接字母、数字、下划线
 //    var a_: String = "" //error

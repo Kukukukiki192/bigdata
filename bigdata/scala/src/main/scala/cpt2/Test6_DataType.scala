@@ -3,7 +3,6 @@ package cpt2
 import cpt1.Student
 
 object Test6_DataType {
-
   def main(args: Array[String]): Unit = {
     //1.整型 Byte Short Int Long
     var a: Byte = 127

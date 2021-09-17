@@ -1,7 +1,6 @@
 package cpt3
 
 object Test1_Operator {
-
   def main(args: Array[String]): Unit = {
     //1.算数运算符
     val a1: Int = 10/3

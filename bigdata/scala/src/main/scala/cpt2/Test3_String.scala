@@ -2,7 +2,6 @@ package cpt2
 
 //字符串输出
 object Test3_String {
-
   def main(args: Array[String]): Unit = {
     //（1）字符串，通过+号连接
     val name : String = "A"

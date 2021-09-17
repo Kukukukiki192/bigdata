@@ -4,7 +4,6 @@ import scala.util.control.Breaks
 import scala.util.control.Breaks._ //引入类下的所有属性、方法
 
 object Test4_Break {
-
   def main(args: Array[String]): Unit = {
     //本质：用异常实现循环中断
     try {

@@ -1,9 +1,7 @@
 package cpt2
 
 object Test7_DataTypeConversion {
-
   def main(args: Array[String]): Unit = {
-
     //1.自动类型转换
 
     /**
