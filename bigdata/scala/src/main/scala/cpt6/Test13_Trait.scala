@@ -27,6 +27,10 @@ class Person13 {
   def hello() = {
     println("hello from " + name)
   }
+
+  def increase(): Unit = {
+    println("person increase")
+  }
 }
 
 //特质
@@ -42,9 +46,10 @@ trait Young {
   }
 }
 
+//子类
 class Student13 extends Person13 with Young {
   //重写冲突的属性
-  override val name: String = "student"
+  override val name: String = "kk"
 
   //实现抽象方法
   def dating(): Unit = println(s"student $name is dating")  //不重写name的话会产生属性继承冲突

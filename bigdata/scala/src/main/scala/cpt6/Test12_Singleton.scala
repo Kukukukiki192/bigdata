@@ -2,6 +2,7 @@ package cpt6
 
 /**
  * 单例模式
+ * 单例对象容易实现各种设计模式
  */
 object Test12_Singleton {
   def main(args: Array[String]): Unit = {
